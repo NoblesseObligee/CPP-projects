@@ -61,5 +61,5 @@ float Shapes::Triangle::calculateArea(){
     return ((base * 0.5) * height);
 }
 Shapes::Triangle::~Triangle(){
-    cout << "Triangle has been destructed" << endl;
+    
 }
