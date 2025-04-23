@@ -31,12 +31,8 @@ void Shapes::Square::setSideLength(float side){
 
 }
 
-float Shapes::Square::getSideLength(){
+float Shapes::Square::getSideLength() const{
     return sideLength;
 }
 
-
-float Shapes::Square::calculateArea(){
-    return sideLength * sideLength;
-}
 Shapes::Square::~Square(){}

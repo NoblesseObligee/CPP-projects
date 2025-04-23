@@ -1,4 +1,4 @@
-
+#pragma once
 namespace Shapes{
 
 
@@ -15,8 +15,7 @@ float radius;
 
 public:
 void setRadius(float newRadius);
-float getRadius();
-float calculateArea();
+float getRadius() const;
 
 };
 }

@@ -49,17 +49,14 @@ void Shapes::Triangle::setBase(float newBase){
 } while(heightChecker);
 }
 
-float Shapes::Triangle::getBase(){
+float Shapes::Triangle::getBase() const{
     return base;
 }
 
-float Shapes::Triangle::getHeight(){
+float Shapes::Triangle::getHeight() const{
     return height;
 }
 
-float Shapes::Triangle::calculateArea(){
-    return ((base * 0.5) * height);
-}
 Shapes::Triangle::~Triangle(){
     
 }

@@ -1,4 +1,4 @@
-
+#pragma once
 namespace Shapes{
 
 class Square{
@@ -14,8 +14,8 @@ float sideLength;
 
 public:
 void setSideLength(float sideLength);
-float getSideLength();
-float calculateArea();
+float getSideLength() const;
+
 
 
 };

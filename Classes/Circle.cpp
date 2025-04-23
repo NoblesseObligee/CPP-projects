@@ -32,13 +32,10 @@ void Shapes::Circle::setRadius(float newRadius){
 
 }
 
-float Shapes::Circle::getRadius(){
+float Shapes::Circle::getRadius() const{
     return radius;
 }
 
 
-float Shapes::Circle::calculateArea(){
-    float area = ((M_PI) * pow(radius, 2));
-    return area;
-}
+
 Shapes::Circle::~Circle(){}
