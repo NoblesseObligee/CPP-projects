@@ -1,5 +1,6 @@
 #pragma once
-
+#include <iostream>
+using namespace std;
 #include <string>
 
 using namespace std;
@@ -7,11 +8,18 @@ using namespace std;
 class Person{
     public:
         Person();
-        Person(float newWeight);
+        Person(string name, float newWeight, int Age);
 
         ~Person();
         //Overload the add operator
         float operator + (const Person& otherPerson);
+        bool operator == (const Person& otherPerson);
+        bool operator != (const Person& otherPerson);
+        bool operator > (const Person& otherPerson);
+        bool operator < (const Person& otherPerson);
+        operator int();
+        operator float();
+        operator string();
 
     private:
         float mWeight;

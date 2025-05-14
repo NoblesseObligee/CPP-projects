@@ -62,7 +62,7 @@ int main (){
         
         }
         else if(choice == 4 ){
-            cout << "\nExiting the program...... \n Successfully exited the program!!!!" << endl;
+            cout << "\nExiting the program...... \nSuccessfully exited the program!!!!" << endl;
             condition = false;
         } 
         else{

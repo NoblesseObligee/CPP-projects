@@ -6,9 +6,9 @@
 
 class Area{
     public:
-        static double CalculateAreaOfSquare(Shapes::Square square);
-        static double CalculateAreaOfTriangle(Shapes::Triangle triangle);
-        static double CalculateAreaOfCircle(Shapes::Circle circle);
+        static double CalculateAreaOfSquare(const Shapes::Square& square);
+        static double CalculateAreaOfTriangle(const Shapes::Triangle& triangle);
+        static double CalculateAreaOfCircle(const Shapes::Circle& circle);
 
 };
 
